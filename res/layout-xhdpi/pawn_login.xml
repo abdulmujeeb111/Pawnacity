@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/db1_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="2"
+    android:background="@drawable/main_screen"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.06"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.64"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_button"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/login_email_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="textPersonName"
+                    android:padding="12dp"
+                    android:textSize="14dp" >
+
+                    
+                </EditText>
+            </LinearLayout>
+
+          <LinearLayout
+            android:layout_width="270dp"
+            android:background="@drawable/white_button"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                
+                android:id="@+id/login_password_txt"
+                android:padding="12dp"
+               android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="14dp"
+                android:background="@null"
+                android:hint="Password"
+                
+                android:inputType="textPassword" >
+
+                
+            </EditText>
+
+        </LinearLayout>
+        
+
+        <Button
+            android:id="@+id/login_btn"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center"
+            android:text="Login"
+            android:background="@drawable/button_selector" />
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+           <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15.50dp"
+                android:button="@drawable/check_box_selector"
+                
+            android:textColor="#FFFFFF"
+            android:text="stay logged in" />
+
+            <TextView
+                android:textColor="#ffea00"
+                android:id="@+id/forgot_pwd_tv"
+                android:layout_marginLeft="16dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:textSize="15.50dp"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    </LinearLayout>
+
+    
+   
+        
+
+       
+  
+
+</LinearLayout>
