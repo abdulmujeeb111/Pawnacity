@@ -125,7 +125,7 @@ public class GalleryAdapter extends BaseAdapter {
 		final ViewHolder holder;
 		if (convertView == null) {
 
-			convertView = infalter.inflate(R.layout.gallery_item, null);
+			convertView = infalter.inflate(R.layout.new_gallery_item, null);
 			holder = new ViewHolder();
 			holder.imgQueue = (ImageView) convertView
 					.findViewById(R.id.imgQueue);
