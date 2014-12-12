@@ -38,6 +38,9 @@
 <TextView
             android:id="@+id/shop_address"
             android:layout_width="wrap_content"
+            android:textSize="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:layout_height="wrap_content"
             android:text="Address"
             android:layout_marginTop="10dp"
@@ -60,8 +63,9 @@
           android:layout_weight="1" />
 
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:layout_width="334dp"
         android:layout_height="71dp"
+        android:layout_gravity="center_horizontal"
         android:layout_alignParentBottom="true"
         android:gravity="bottom" >
 
@@ -70,8 +74,8 @@
                 android:layout_width="55dp"
                 android:layout_height="55dp"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="15dp"
+                
+                
                 android:layout_marginBottom="7dp"
                 android:background="@drawable/back_button_selector" />
 
@@ -81,8 +85,8 @@
                 android:layout_marginBottom="7dp"
                 android:layout_height="55dp"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginRight="15dp"
+                
+                
                 android:background="@drawable/forword_button" />
         </RelativeLayout>
 

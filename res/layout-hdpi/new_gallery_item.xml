@@ -16,8 +16,8 @@
 
             <ImageView
                 android:id="@+id/imgQueue"
-                android:layout_width="125dp"
-                android:layout_height="125dp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
                 android:contentDescription="@string/app_name"
                 android:scaleType="centerCrop"
                 android:src="@drawable/no_media" />
@@ -31,7 +31,8 @@
                  android:layout_gravity="center"
                  android:background="@drawable/on_focus_checkbox"
                  android:contentDescription="@string/app_name"
-                 android:scaleType="center" />
+                 android:scaleType="center" 
+                 android:visibility="gone"/>
 
         </FrameLayout>
 

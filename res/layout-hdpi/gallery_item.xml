@@ -21,18 +21,18 @@
                 android:contentDescription="@string/app_name"
                 android:scaleType="centerCrop"
                 android:src="@drawable/no_media" />
+
              <ImageView
-            android:id="@+id/imgQueueMultiSelected"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_marginRight="2dp"
-            android:layout_marginTop="2dp"
-            android:background="@drawable/on_focus_checkbox"
-            android:contentDescription="@string/app_name"
-            android:gravity="center"
-            android:scaleType="center"
-            android:visibility="gone" />
+                 android:id="@+id/imgQueueMultiSelected"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginRight="2dp"
+                 android:layout_marginTop="2dp"
+                 android:background="@drawable/on_focus_checkbox"
+                 android:contentDescription="@string/app_name"
+                 android:layout_gravity="center"
+                 android:scaleType="center" />
+
         </FrameLayout>
 
        

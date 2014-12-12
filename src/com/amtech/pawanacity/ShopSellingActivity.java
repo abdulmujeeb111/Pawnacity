@@ -50,7 +50,7 @@ public class ShopSellingActivity extends ActionBarActivity implements OnClickLis
 	GridView gridGallery;
 	Handler handler;
 	ViewPager viewPager;
-public static GalleryAdapter adapter;
+public static GalleryAdapterTwo adapter;
  
 int count=0;
 	ImageView imgSinglePick,imageView;
@@ -225,7 +225,7 @@ int count=0;
 		handler = new Handler();
 		gridGallery = (GridView) findViewById(R.id.gridGallery);
 		gridGallery.setFastScrollEnabled(true);
-		adapter = new GalleryAdapter(getApplicationContext(), imageLoader);
+		adapter = new GalleryAdapterTwo(getApplicationContext(), imageLoader);
 		adapter.setMultiplePick(false);
 		gridGallery.setAdapter(adapter);
 

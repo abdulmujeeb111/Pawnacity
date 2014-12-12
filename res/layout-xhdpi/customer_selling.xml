@@ -93,9 +93,9 @@
                 android:textSize="16dp" />
         </LinearLayout>
  <LinearLayout
-        android:layout_height="145dp"
+        android:layout_height="165dp"
         android:background="@drawable/store_logo"
-         android:layout_width="215dp"
+         android:layout_width="235dp"
          android:layout_marginTop="5dp"
          android:layout_gravity="center_horizontal"
          android:orientation="vertical" >
@@ -132,7 +132,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:contentDescription="@string/app_name"
-            android:src="@drawable/logo_white" />
+            android:src="@drawable/add_picture" />
     </ViewSwitcher>
 </LinearLayout>
  <LinearLayout
@@ -188,10 +188,12 @@
 
         </LinearLayout>
     </LinearLayout>
-    
+    <View android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1" />
 <RelativeLayout
-            android:layout_width="300dp"
-            android:layout_height="65dp"
+            android:layout_width="334dp"
+            android:layout_height="71dp"
             android:layout_gravity="center_horizontal"
             android:layout_alignParentBottom="true"
             android:gravity="bottom" >
